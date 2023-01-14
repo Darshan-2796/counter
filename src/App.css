@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: auto;
+  width: 82vw;
+  color: blue;
+  padding-top: 20px;
+}
+
+.main {
+  border: 2px solid blue;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  height: 80vh;
+  width: 80vw;
+  margin: auto;
+}
+
+.count {
+  border-bottom: 1px solid white;
+  width: fit-content;
+  margin-bottom: 12px;
+}
+
+.main button {
+  margin-right: 20px;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+.reset-counter {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
